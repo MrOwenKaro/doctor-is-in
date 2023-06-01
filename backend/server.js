@@ -21,7 +21,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use('/Uploads', express.static(__dirname + '/Uploads'))
 app.use(express.static(__dirname + '/public'));
-app.use(cors({origin:"http://localhost:3000", credentials:true}))
+app.use(cors({origin:"https://6478bb68f0c1501f14bd06e0--phenomenal-blini-3bc984.netlify.app", credentials:true}))
 
 app.use('/api',Router)
 
