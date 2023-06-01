@@ -21,7 +21,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use('/Uploads', express.static(__dirname + '/Uploads'))
 app.use(express.static(__dirname + '/public'));
-app.use(cors({origin:"https://6478beeba1897d22ccdefc05--ephemeral-starburst-109f59.netlify.app", credentials:true}))
+app.use(cors({origin:"https://ephemeral-starburst-109f59.netlify.app", credentials:true}))
 
 app.use('/api',Router)
 
